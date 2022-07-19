@@ -84,9 +84,10 @@ a {
 
 .image {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
 	margin: 0 10px 0 200px;
+	width: -webkit-fill-available;
 }
 
 .imgDummy {
