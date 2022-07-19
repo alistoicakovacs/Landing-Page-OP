@@ -80,6 +80,11 @@ a {
 	font-family: "Poppins";
 	font-weight: 800;
 	font-size: 1rem;
+	margin-left: 10px;
+}
+.signup-button:hover {
+	background-color: #3881f6c8;
+	transform: scale(1.1);
 }
 
 .image {
