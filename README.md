@@ -1,11 +1,11 @@
 # Landing-Page-OP
 
-This is a landingPage template made with pure HTML and CSS for TheOdinProject.
+This is a landing page template made with pure HTML and CSS for TheOdinProject.
 
 The layout has been made using flexbox.
 
 - Change the text as you wish
-- In order to change/add pictures instead of placeholders, change the img src at the following line:
+- In order to change/add pictures instead of placeholders, change the img src:
 
    <div class="image">
           <img class="imgDummy" src="https://dummyimage.com/640x360/fff/aaa" alt="img" />
@@ -18,6 +18,6 @@ The layout has been made using flexbox.
   background-image: url("")
   }
   
-  replace the space between the "" with the image address.
+  - replace the space between the "" with the image address.
 
   
