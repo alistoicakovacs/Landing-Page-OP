@@ -4,6 +4,8 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
@@ -164,7 +166,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 200px;
   height: 300px;
 }
 
@@ -184,4 +185,37 @@ a {
 
 .footer-text p {
   width: 500px;
+  padding-right: 10px;
+}
+
+.signup-button-footer {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  border: 2px solid white;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 1rem;
+  margin: 10px 0 0 5px;
+}
+
+.signup-button-footer:hover {
+  background-color: #3881f6c8;
+  transform: scale(1.1);
+}
+
+footer {
+  align-self: flex-end;
+  height: 50px;
+  text-align: center;
+  background-color: #1f2937;
+}
+
+footer p {
+  text-align: center;
+  padding: 20px 0 0 0;
+  color: #e5e7eb;
+  font-family: "roboto";
 }
